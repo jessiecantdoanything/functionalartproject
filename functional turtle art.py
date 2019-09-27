@@ -5,6 +5,7 @@ scr = turtle.Screen()
 turtle.shape("turtle")
 kk = turtle.Turtle()
 turtle.speed(.5)
+turtle.color("Light Sea Green")
 
 
 def star():
@@ -19,10 +20,13 @@ def square():
        turtle.right(90)
 
 
+
 star()
+turtle.begin_fill()
 turtle.penup()
 turtle.forward(250)
 turtle.pendown()
+turtle.end_fill()
 square()
 
 
